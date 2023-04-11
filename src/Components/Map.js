@@ -19,7 +19,7 @@ const options = {
 
 const Map = ({ filteredEvents, userLocation, setUserLocation }) => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBM-kc17ICi5elvOP04xO4yj_HZR3F2hTw",
+    googleMapsApiKey: //removed API key,
     libraries,
   });
 
